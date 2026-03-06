@@ -18,5 +18,5 @@ Made with W3Schools and code from Professor Barry Cumbie
 
 ## Concept For This App ##
 
-<img width = "1000" height = 10000 src = https://github.com/ajguerrero39-hub/midterm-project/blob/b619a743e32be7efa44a0e35c61a737cdbe1c6e3/Screenshot%202026-03-05%20224452.png/>
+<img width = "1000" height = 10000 src = https://github.com/ajguerrero39-hub/midterm-project/blob/f9f61b816c9cbcbbc0c2a711f0450d0b7445cfb6/assets/Screenshot%202026-03-05%20224452.png/>
 
