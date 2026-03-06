@@ -18,6 +18,6 @@ Made with W3Schools and code from Professor Barry Cumbie
 
 ## Concept For This App ##
 
-<img>
+<img width = "1000" height = 600 src = "/>
 
 
