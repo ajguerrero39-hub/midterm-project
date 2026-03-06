@@ -27,6 +27,7 @@ function showSignInOut() {
     //hide login
     const btnLogin = document.getElementById('btnLogin');
     btnLogin.classList.add('d-none'); 
+    console.log('User is authenticated, showing logout button');
   }
   else if(!isAuthN()){
      //hide logout
@@ -36,6 +37,7 @@ function showSignInOut() {
     //show login
     const btnLogin = document.getElementById('btnLogin');
     btnLogin.classList.remove('d-none'); 
+    console.log('User is not authenticated, showing login button');
   }
 
 }

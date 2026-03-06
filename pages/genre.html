@@ -29,8 +29,7 @@
             <li class="nav-item"><a class="nav-link" href="franchise.html">Search by Franchise</a></li>
             <li class="nav-item"><a class="nav-link" href="genre.html">Search by Genre</a></li>
           </ul>
-          <a href="pages/login.html" id="btnLogin" class="btn btn-light ms-sm-3 d-none" type="button">Login</a>
-          <button id="btnLogout" class="btn btn-outline-light ms-sm-3 d-none" type="button">Logout</button></a>
+          
         </div>
       </div>
 
@@ -43,6 +42,7 @@
               aria-label="Search">
 
           </form>
+          <button class="bi bi-sort-alpha-down" onclick= "sortTable(genreData)">Sort</button>
         </div>
       </div>
 
@@ -81,6 +81,7 @@
     crossorigin="anonymous"></script>
    <script src="../scripts/data.js"></script>
   <script src="../scripts/genre-search.js" defer></script>
+  <script src="../scripts/sort.js"></script>
 </body>
 
 </html>
