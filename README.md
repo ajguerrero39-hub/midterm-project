@@ -24,8 +24,36 @@ Instead of a store setting, I wanted it to be more open to people who wish to vo
 ## Code Sample
 
 This is how searching works
-from `scripts/index-search.js`
+from `scripts/index-search.js`, this creates the default (full) list of Titles, then waits for input
+```js
+renderSearchResults(gameData);
+searchInput.addEventListener("input", handleSearch);
+```
+Next, when the user inputs into the search bar, the script takes it and begins filtering the list based off of it in real time
 
+```js
+function handleSearch() {
 
+  const query = searchInput.value.trim().toLowerCase();
+  
+  
+  const results = gameData.filter(word =>
+    word.toLowerCase().startsWith(query)
+  );
 
+  renderSearchResults(results);
+}
+```
+Finally, the final list is "printed out"
+```js
+function renderSearchResults(items) {
+  searchResults.innerHTML = "";
 
+  items.forEach(word => {
+    const li = document.createElement("li");
+    li.textContent = word;
+    searchResults.appendChild(li);
+  });
+}
+```
+Tested on desktop and mobile with no issues.
