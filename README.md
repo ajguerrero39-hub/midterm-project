@@ -20,3 +20,12 @@ Made with W3Schools and code from Professor Barry Cumbie
 
 <img width = "1000" height = 10000 src = https://github.com/ajguerrero39-hub/midterm-project/blob/f9f61b816c9cbcbbc0c2a711f0450d0b7445cfb6/assets/Screenshot%202026-03-05%20224452.png/>
 
+Instead of a store setting, I wanted it to be more open to people who wish to voice their opinions, like Google Reviews, but as a dedicated site.
+## Code Sample
+
+This is how searching works
+from `scripts/index-search.js`
+
+
+
+
